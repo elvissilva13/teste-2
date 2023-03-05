@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invertendo caracteres de uma string</title>
+</head>
+<body>
+    <h1>Invertendo caracteres de uma String</h1>
+    <script>
+        let nome  = "Seja bem vindo";
+
+        let strInvertida = [];
+
+        for (let i = 0; i< nome.length; i++) {
+          strInvertida[nome.length -i -1] = nome[i];
+           
+        }
+
+        let strInvertidaFinal = strInvertida.join("");
+
+        document.write("String Original : "+ nome + " </br> String Invertida : "+ strInvertidaFinal);
+
+        
+    </script>
+    
+</body>
+</html>

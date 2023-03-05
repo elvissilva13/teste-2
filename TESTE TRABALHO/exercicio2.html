@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci</title>
+</head>
+<body>
+    <h1> Sequência de fibonacci</h1>
+    <script>
+           let numero = prompt("digite um número : ");
+            let F =[];
+             F [0] = 0;
+             F [1] = 1;
+   
+            for (let i = 2 ; i < 20 ; i++){
+            F[i] = F[i - 2] + F[i -1];
+                
+            }
+
+                if( F.find(Element => Element == numero) ){
+                document.write("O número pertence a sequência de fibonacci")
+
+                }else{
+                document.write("O número não pertence a sequência de fibonacci")
+
+                }
+
+
+                console.log (F);
+    
+
+
+
+    </script>
+    
+</body>
+</html>
+
+    
+       
+      

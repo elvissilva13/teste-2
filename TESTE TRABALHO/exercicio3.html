@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>próximo elemento</title>
+</head>
+<body>
+    <h1>próximo elemeto</h1>
+    <script>
+   
+   let sequenciaA =[];
+     for(let i =1 ;i < 20 ;i += 2){
+		sequenciaA.push(i);
+	 }
+		console.log(sequenciaA);
+
+	let sequenciaB =[];
+     for(let i =2 ;i < 500 ;i *= 2){
+		sequenciaB.push(i);
+	 }
+		console.log(sequenciaB);
+
+	let sequenciaC =[1,2,3,4,5,6,7,8,9,10];
+    let quadrados = sequenciaC.map(function(item){
+		return Math.pow(item,2);
+	 })
+		console.log(quadrados);
+
+	let sequenciaD = [2,4,6,8,10];
+	let expoente = sequenciaD.map(function(item){
+			return Math.pow(item,2)
+		})
+		console.log(expoente);
+
+	let sequenciaE =[];
+             sequenciaE [0] = 1;
+             sequenciaE [1] = 1;
+   
+            for (let i = 2 ; i < 10 ; i++){
+            sequenciaE[i] = sequenciaE[i - 1] + sequenciaE[i -2];
+                
+            }
+
+			console.log(sequenciaE);
+
+	let sequenciaF = [2,10,12,16,17,18,19];
+		sequenciaF.push(200)
+		console.log(sequenciaF)
+</script>
+
+</body>
+</html>

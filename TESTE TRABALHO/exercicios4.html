@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicios 4</title>
+</head>
+<body>
+<h1>Ribeirão preto <---> Franca</h1>
+    <p> Dois veículos (um carro e um caminhão) saem respectivamente de cidades opostas pela mesma rodovia. O carro de Ribeirão Preto em direção a Franca, a uma velocidade constante de 110 km/h e o caminhão de Franca em direção a Ribeirão Preto a uma velocidade constante de 80 km/h. Quando eles se cruzarem na rodovia, qual estará mais próximo a cidade de Ribeirão Preto?
+    </p>
+    <script>
+        let carro = 110;
+        let caminhao= 80;
+        let distancia = 100;
+      
+       let percursoCaminhao = distancia/caminhao +(0.05 * 2)//pedagio;
+       let percursoCarro = distancia/carro
+       document.write("O caminhão fara o percurso em " + percursoCaminhao.toFixed(2)+" horas </br>");
+       document.write("O carro fara o percurso em " + percursoCarro.toFixed(2) + " horas </br>");
+        document.write("portanto o caminhão estara mais próximo de Ribeirão Preto quando os veiculos se cruzarem,isso ocorre pois o veiculo tem uma velocidade maior e se distanciara mais de ribeirão preto ")
+    </script>
+
+</body>
+</html>
